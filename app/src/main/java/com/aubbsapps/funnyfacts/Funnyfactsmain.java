@@ -1,8 +1,6 @@
 package com.aubbsapps.funnyfacts;
 
 import android.app.Activity;
-import android.content.DialogInterface;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,8 +9,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import java.util.Random;
-
 
 public class Funnyfactsmain extends Activity {
 
@@ -20,10 +16,18 @@ public class Funnyfactsmain extends Activity {
     private FactBook mFactBook = new FactBook();
     private Colorwheel mColorwheel = new Colorwheel();
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_funnyfactsmain);
+       // Intent intent = new Intent(this, MainMenuActivity.class);
+        //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+       // startActivity(intent);
+
 
         //Decalre our veiw varibles and assign them the views from the layout file
         final TextView factLabel = (TextView) findViewById(R.id.factTextview);
