@@ -10,7 +10,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 
-public class Funnyfactsmain extends Activity {
+public class CoolFactsActivity extends Activity {
 
 
     private FactBook mFactBook = new FactBook();
@@ -22,7 +22,7 @@ public class Funnyfactsmain extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_funnyfactsmain);
+        setContentView(R.layout.activity_cool_fact);
        // Intent intent = new Intent(this, MainMenuActivity.class);
         //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
