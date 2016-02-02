@@ -28,7 +28,7 @@
         android:text="SPORTS"
         android:id="@+id/Sportsbutton"
         android:background="#ffffff"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/Moviebutton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="11dp"
@@ -38,8 +38,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="MOVIES"
-        android:id="@+id/button3"
-        android:layout_above="@+id/button4"
+        android:id="@+id/Moviebutton"
+        android:layout_above="@+id/Randombutton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:background="#ffffff"
@@ -50,7 +50,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="RANDOM"
-        android:id="@+id/button4"
+        android:id="@+id/Randombutton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="#ffffff"
@@ -66,4 +66,13 @@
         android:layout_centerHorizontal="true"
         android:textColor="#a2ffffff"
         android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/icon_logo"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
